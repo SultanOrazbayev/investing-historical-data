@@ -112,6 +112,7 @@ function getHtml(url, start, stop, id) {
  * @returns {string} s
  */
 function checkDate(s) {
+/** 
     if (!s.match(/^\d{2}\/\d{2}\/\d{4}$/)) {
         console.error("Invalid date: required format is MM/dd/yyyy");
         process.exit(1);
@@ -121,6 +122,7 @@ function checkDate(s) {
         console.error("Invalid date: should be in the past");
         return null;
     }
+*/
     return s;
 }
 
